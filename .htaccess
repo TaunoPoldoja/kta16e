@@ -1,5 +1,16 @@
+AuthType Basic
+AuthName "ptotected"
+AuthUserFile C:\wamp\www\kta16e\.htpasswd
+Require valid-user
+
+
+
 <files "*.txt">
 
 deny from all
 
 </files>
+
+# http://www.htaccesstools.com/
+
+# Tauno:$apr1$6a.fIl7E$qR6f0IKUSbgmoPR5LHv/K/
